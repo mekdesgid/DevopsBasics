@@ -8,7 +8,7 @@ trigger:
 
 
 pool: 
- name: $(agentName)
+ name: agentpool
 steps:
 - task: Bash@3
   inputs:
