@@ -8,7 +8,7 @@ trigger:
 
 
 pool: 
- name: $(poolName)
+ name: agentpool
 steps:
 - task: Maven@3
   inputs:
