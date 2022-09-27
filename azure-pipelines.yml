@@ -7,7 +7,7 @@ trigger:
 - master
 
 
-pool: Default
+pool: h-MBP-sl-mqds
 steps:
 - task: Maven@3
   inputs:
