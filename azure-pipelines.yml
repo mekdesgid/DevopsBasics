@@ -7,7 +7,8 @@ trigger:
 - master
 
 
-pool: h-MBP-sl-mqds
+pool: 
+ name: $(poolName)
 steps:
 - task: Maven@3
   inputs:
